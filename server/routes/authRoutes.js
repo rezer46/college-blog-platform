@@ -4,6 +4,7 @@ const router = express.Router();
 const {
   registerUser,
   loginUser,
+  updateUserProfile,
 } = require("../controllers/authController");
 
 router.post("/register", registerUser);
